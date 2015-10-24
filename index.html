@@ -17,6 +17,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/customized.css">
+  
+  <link rel="stylesheet" href="lib/remodal/dist/remodal.css">
+  <link rel="stylesheet" href="lib/remodal/dist/remodal-default-theme.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -44,8 +48,24 @@
       </div>
     </div>
   </div>
+  
+  <div class="remodal-bg">
+	  <div class="remodal" data-remodal-id="modal">
+	  	<button data-remodal-action="close" class="remodal-close"></button>
+	  	<h1>Remodal</h1>
+	  	<p>
+	    	Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+	  	</p>
+	  	<br>
+	  	<button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+	  	<button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+	  </div>
+  </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <script src="lib/remodal/dist/remodal.min.js"></script>
+  
 </body>
 </html>
